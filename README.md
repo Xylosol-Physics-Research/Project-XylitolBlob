@@ -25,7 +25,7 @@
 ```bash
 # 克隆仓库
 git clone https://github.com/Xylosol-Physics-Research/Project-XylitolBlob.git
-cd tianchanbian/demos
+cd Project-XylitolBlob/demos
 
 # 安装依赖
 pip install numpy matplotlib scipy
