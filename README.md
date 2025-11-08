@@ -55,7 +55,7 @@ python demo_magic_constraint.py
 ```bibtex
 @software{tianchanbian_2025,
   title = {天缠变: 基于自适应平衡网络的量子系统模拟器},
-  author = {天纏變項目組},
+  author = {天缠变项目组},
   year = {2025},
   url = {https://github.com/Xylosol-Physics-Research/Project-XylitolBlob}
 }
