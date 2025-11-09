@@ -61,6 +61,7 @@ python demo_magic_constraint.py
 - [算法说明](common/docs/algorithm.md)
 - [应用场景](common/docs/applications.md)
 - [技术路线图](common/docs/ROADMAP.md)
+- [项目技术总结](PROJECT_SUMMARY.md)
 
 🎓 引用
 
