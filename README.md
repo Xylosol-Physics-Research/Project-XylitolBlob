@@ -5,6 +5,17 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 
+## 🗂️ 项目结构
+
+```
+Project-XylitolBlob/
+├── asic/          # ASIC版本设计文档和代码
+├── fpga/          # FPGA版本设计文档和代码
+├── common/        # 共享资源（文档、演示、算法）
+├── README.md
+└── requirements.txt
+```
+
 ## 🎯 项目概述
 
 「天缠变」是一款创新的专用计算加速器架构，利用**多维魔方阵的数学约束**构建先天稳定的模拟计算网络，通过**四维调和张量**与**静电类比方法**高效模拟量子多体系统的关键物理性质。
@@ -25,7 +36,7 @@
 ```bash
 # 克隆仓库
 git clone https://github.com/Xylosol-Physics-Research/Project-XylitolBlob.git
-cd Project-XylitolBlob/demos
+cd Project-XylitolBlob/common/demos
 
 # 安装依赖
 pip install numpy matplotlib scipy
@@ -42,11 +53,14 @@ python demo_magic_constraint.py
 · ✅ 静电松弛收敛演示
 · ✅ 魔方约束引导效果展示
 
-📚 技术文档
+## 📚 技术文档
 
-· 理论基础
-· 技术验证报告
-· 架构深度解析
+- [理论基础](common/docs/theoretical_foundation.md)
+- [技术验证报告](common/docs/technical_verification.md) 
+- [架构详解](asic/docs/architecture.md)
+- [算法说明](common/docs/algorithm.md)
+- [应用场景](common/docs/applications.md)
+- [技术路线图](common/docs/ROADMAP.md)
 
 🎓 引用
 
